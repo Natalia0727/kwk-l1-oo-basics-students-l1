@@ -9,10 +9,14 @@ class Shoes
   end 
   def swoosh=(swoosh_color)
     @this_shoes_swoosh= swoosh_color
+  end 
+  def swoosh 
+    @this_shoes_swoosh
+  end
 
 end 
-sams_shoe = Shoes.new
-sams_shoe.color="Red"
 nats_shoes = Shoes.new
-nats_shoes.color = "Blue"
-puts "Natalia's shoes are #{nats_shoes.color}"
+nats_shoes.color="Red"
+nats_shoes = Shoes.new
+nats_shoes.swoosh = "silver"
+puts "Natalia's shoes are #{nats_shoes.color} and her swoosh is #{nats_shoes.swoosh}"
