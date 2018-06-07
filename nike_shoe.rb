@@ -19,10 +19,15 @@ class Shoes
   def laces 
     @this_shoes_laces
   end
-
+  def sole=(sole_color)
+    @this_shoes_sole=sole_color
+  end 
+  def sole 
+    @this_shoes_sole 
 end 
 nats_shoes = Shoes.new
 nats_shoes.color="Red"
 nats_shoes.swoosh = "silver"
 nats_shoes.laces="white"
-puts "Natalia's shoes are #{nats_shoes.color} and her swoosh is #{nats_shoes.swoosh}. Her laces are #{nats_shoes.laces}"
+nats_shoe.sole="white"
+puts "Natalia's shoes are #{nats_shoes.color} and her swoosh is #{nats_shoes.swoosh}. Her laces are #{nats_shoes.laces}. Nats soles are #{nats_shoes.sole}."
