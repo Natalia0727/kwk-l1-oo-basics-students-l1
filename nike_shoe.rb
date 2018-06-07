@@ -24,6 +24,7 @@ class Shoes
   end 
   def sole 
     @this_shoes_sole 
+  end
 end 
 nats_shoes = Shoes.new
 nats_shoes.color="Red"
