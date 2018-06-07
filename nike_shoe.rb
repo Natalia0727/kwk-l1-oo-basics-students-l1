@@ -10,5 +10,7 @@ class Shoes
 
 end 
 sams_shoe = Shoes.new
-sams_shoe.color="red"
-puts "the color of sams shoe is #{sams_shoe.color}"
+sams_shoe.color="Red"
+nats_shoes = Shoes.new
+nats_shoes.color = "Blue"
+puts "Natalia's shoes are #{nats_shoes.color}"
