@@ -29,5 +29,5 @@ nats_shoes = Shoes.new
 nats_shoes.color="Red"
 nats_shoes.swoosh = "silver"
 nats_shoes.laces="white"
-nats_shoe.sole="white"
+nats_shoes.sole="white"
 puts "Natalia's shoes are #{nats_shoes.color} and her swoosh is #{nats_shoes.swoosh}. Her laces are #{nats_shoes.laces}. Nats soles are #{nats_shoes.sole}."
