@@ -8,7 +8,7 @@ class Shoes
     @this_shoes_color
   end 
   def swoosh=(swoosh_color)
-    @this_shoes_swoosh
+    @this_shoes_swoosh= swoosh_color
 
 end 
 sams_shoe = Shoes.new
