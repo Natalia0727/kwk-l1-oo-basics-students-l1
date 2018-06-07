@@ -19,4 +19,4 @@ nats_shoes = Shoes.new
 nats_shoes.color="Red"
 nats_shoes = Shoes.new
 nats_shoes.swoosh = "silver"
-puts "Natalia's shoes are#{nats_shoes.color} and her swoosh is #{nats_shoes.swoosh}"
+puts "Natalia's shoes are #{nats_shoes.color} and her swoosh is #{nats_shoes.swoosh}"
