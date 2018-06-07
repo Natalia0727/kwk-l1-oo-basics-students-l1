@@ -7,6 +7,8 @@ class Shoes
   def color #tell user color of shoe
     @this_shoes_color
   end 
+  def swoosh=(swoosh_color)
+    @this_shoes_swoosh
 
 end 
 sams_shoe = Shoes.new
