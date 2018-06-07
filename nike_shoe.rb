@@ -11,4 +11,4 @@ class Shoes
 end 
 sams_shoe = Shoes.new
 sams_shoe.color="red"
-puts "the color of sams shoe is  #{sams_shoe.color}"
+puts "the color of sams shoe is #{sams_shoe.color}"
